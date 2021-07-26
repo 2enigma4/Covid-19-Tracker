@@ -1,0 +1,23 @@
+.line_graph{
+    box-sizing: border-box;
+    border: #e8e3e3 solid 2px;
+    max-width: 800px;
+    padding: 30px;
+    margin:10px;
+    border-radius: 30px;
+}
+
+.graph_header{
+    text-align: left;
+}
+
+.graph_divider{
+    width: 200px;
+    color:#af9d9d;
+}
+
+@media screen and (max-width: 800px) {
+    .line_graph{
+        padding: 20px;
+    }
+  }
